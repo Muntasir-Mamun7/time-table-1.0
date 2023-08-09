@@ -1,27 +1,25 @@
-let firstBtn = document.getElementById('button1')
-let secondBtn = document.getElementById('button2')
-let colorChangeBtn = document.getElementById('changeColorBtn')
-let firstContent = document.getElementById('content1')
-let secondContent = document.getElementById('content2')
+let button1P = document.getElementById('button1')
 
-firstBtn.addEventListener('click', function() {
-    displayText()
+let button2P = document.getElementById('button2')
+
+let changeColorBtn = document.getElementById('changeColorBtn')
+
+ let content1P = document.getElementById('content1')
+
+ let content2P = document.getElementById('content2')
+
+ button1P.addEventListener('click', function() {
+    content1P.style.display = 'block'
+
+
 })
+button2P.addEventListener('click' , function(){
+    content2P.style.display = 'block'
+ })
 
-function displayText() {
-    var text = document.getElementById('content1')
-    text.style.display = 'block'
-}
+ changeColorBtn.addEventListener('click' , function () {
+    const randomColor =  Math.floor(Math.random()*16777215).toString(16)
 
-secondBtn.addEventListener('click', function() {
-    displayText1()
-})
-
-function displayText1() {
-    var text = document.getElementById('content2')
-    text.style.display = 'block'
-}
-
-changeColorBtn.addEventListener('click', function() {
-    document.body.style.backgroundColor = 'red'
-})
+    document.body.style.backgroundColor = "#" + randomColor
+    
+ })
