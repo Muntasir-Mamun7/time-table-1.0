@@ -1,0 +1,74 @@
+/* css/styles.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  transition: background-color 0.3s ease;
+  text-align: center;
+}
+
+#colorChangeContainer {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#button1 {
+  background-color: #007bff;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+}
+
+#button2 {
+  background-color: #17a2b8;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+}
+
+#changeColorBtn {
+  background-color: #28a745;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+}
+
+.content {
+  display: none;
+}
+
+
+h2 {
+  text-align: center;
+  padding: 20px;
+}
+table {
+  width: 80%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+th {
+  background-color: #f2f2f2;
+}
+

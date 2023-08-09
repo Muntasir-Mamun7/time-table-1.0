@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Show/Hide and Color Change Example</title>
+  </head>
+  <body>
+    <div>
+      <h1>Class Time Table</h1>
+    </div>
+    <button id="button1">Show Content 1</button>
+    <button id="button2">Show Content 2</button>
+    <button id="changeColorBtn">Change Color</button>
+
+    <div id="content1" class="content">
+      <h2>CST Timetable</h2>
+
+      <table>
+        <tr>
+          <th>Day</th>
+          <th>Time</th>
+          <th>Course</th>
+        </tr>
+        <tr>
+          <td rowspan="2">Day 1</td>
+          <td>9:00 AM - 11:00 AM</td>
+          <td>Mathematics</td>
+        </tr>
+        <tr>
+          <td>1:00 PM - 3:00 PM</td>
+          <td>Science</td>
+        </tr>
+        <tr>
+          <td rowspan="2">Day 2</td>
+          <td>10:00 AM - 12:00 PM</td>
+          <td>History</td>
+        </tr>
+        <tr>
+          <td>2:00 PM - 4:00 PM</td>
+          <td>English</td>
+        </tr>
+      </table>
+    </div>
+
+    <div id="content2" class="content">
+      <h2>EIE Timetable</h2>
+
+      <table>
+        <tr>
+          <th>Day</th>
+          <th>Time</th>
+          <th>Course</th>
+        </tr>
+        <tr>
+          <td rowspan="2">Day 1</td>
+          <td>9:00 AM - 11:00 AM</td>
+          <td>Mathematics</td>
+        </tr>
+        <tr>
+          <td>1:00 PM - 3:00 PM</td>
+          <td>Science</td>
+        </tr>
+        <tr>
+          <td rowspan="2">Day 2</td>
+          <td>10:00 AM - 12:00 PM</td>
+          <td>History</td>
+        </tr>
+        <tr>
+          <td>2:00 PM - 4:00 PM</td>
+          <td>English</td>
+        </tr>
+      </table>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
